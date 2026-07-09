@@ -8,7 +8,7 @@
 
 ## 2026-07-09 — Inizializzazione del sistema di progetto
 
-Commit: PENDING-FIRST-COMMIT
+Commit: a18b8cf
 File toccati: anatomia di `.claude`, `CLAUDE.md`, `.gitignore`, schede di `context/`.
 Motivo: installazione del sistema portabile di contesto, documentazione e version control
 descritto in `.claude/PROJECT-SYSTEM.md`. Schede create con struttura e frontmatter, da popolare

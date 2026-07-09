@@ -8,7 +8,7 @@
 
 ```
 Branch attivo:        main
-Commit di riferimento: PENDING-FIRST-COMMIT
+Commit di riferimento: a18b8cf
 Data snapshot:        2026-07-09
 ```
 
@@ -16,12 +16,12 @@ Data snapshot:        2026-07-09
 
 | Scheda | last-verified | Stato |
 |---|---|---|
-| STACK.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
-| design-and-security.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
-| deployment.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
-| dev-testing.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
-| current-work.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
-| roadmap.md | PENDING-FIRST-COMMIT | da verificare dopo il primo commit |
+| STACK.md | a18b8cf | da verificare dopo il primo commit |
+| design-and-security.md | a18b8cf | da verificare dopo il primo commit |
+| deployment.md | a18b8cf | da verificare dopo il primo commit |
+| dev-testing.md | a18b8cf | da verificare dopo il primo commit |
+| current-work.md | a18b8cf | da verificare dopo il primo commit |
+| roadmap.md | a18b8cf | da verificare dopo il primo commit |
 
 ## Punto di ripresa
 

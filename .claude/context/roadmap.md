@@ -1,5 +1,5 @@
 ---
-generated-from-commit: PENDING-FIRST-COMMIT
+generated-from-commit: a18b8cf
 generated-from-branch: main
 generated-date: 2026-07-09
 covers-paths: []
