@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    restart: unless-stopped
+    environment:
+      WEBSOCKET_ENABLED: 'true'
+      ADMIN_TOKEN: "568255b1b242028da8bea0dda70246d7daab97aee0e0129e13f85eec8912b93f"
+
+    volumes:
+      - ./data:/data
+    networks:
+      - vault_net
+
+  nginx:
+    image: nginx:stable
+    container_name: vaultwarden-nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./certs:/etc/nginx/certs:ro
+    ports:
+      - "443:443"
+    depends_on:
+      - vaultwarden
+    networks:
+      - vault_net
+
+networks:
+  vault_net:
+    driver: bridge
